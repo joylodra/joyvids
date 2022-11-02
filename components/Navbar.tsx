@@ -13,7 +13,7 @@ import Logo from '../utils/tiktik-logo.png';
 import { createOrGetUser } from '../utils';
 
 const Navbar = () => {
-  const { userProfile, addUser, removeUser } = useAuthStore();
+  const { userProfile, addUser, removeUser }: any = useAuthStore();
   const [searchValue, setSearchValue] = useState();
 
   const router = useRouter();
